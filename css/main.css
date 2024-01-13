@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header div h1{
+    color:white;
+}
+header h2{
+    
+    color: white;
+}
+.cabeza{
+    display: flex;
+}
+
+
+
+body{
+    background-image: url(../assets/img/fondodepantalla.jpg);   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    
+}
+.fondo-de-pantallas{
+    width:100%;
+    height: 100%;
+    display: flex;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.80), rgba(0, 0, 0, 0.80));
+}
+#cuerpo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 50px;
+}
+
+.etiqueta{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 350px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.etiqueta img{
+    width: 250px;
+    
+}
+
+
+
+.nombre-et{
+    color: white;
+    gap: 10px;
+}
+
+.precio-et{
+    gap: 10px;
+    color: white;
+
+}
+
+.botones{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.botones:hover{
+    color: #ffffff;
+    background-color: black;
+    border: 1px solid white;
+}
