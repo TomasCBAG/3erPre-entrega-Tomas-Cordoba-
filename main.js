@@ -9,11 +9,17 @@ const productos = [
     {id: 7 , nombre:"REMERA ZIMITH TOKIOTA" , precio: 1440 },
     {id: 8 , nombre:"REMERA FAMILY MACHI" , precio: 2160 },  
 ];
-const imagenes = ["./assets/img/imagen1.png", "./assets/img/imagen2.png", "./assets/img/imagen3.png", "./assets/img/imagen4.png", "./assets/img/imagen5.png", "./assets/img/imagen6.png"];
+const imagenes = ["./assets/img/imagen1.png", 
+"./assets/img/imagen2.png",
+ "./assets/img/imagen3.png",
+  "./assets/img/imagen4.png",
+   "./assets/img/imagen5.png",
+    "./assets/img/imagen6.png"];
 
 const main = document.getElementById("cuerpo");
-let carrito =[]
-let i = 0
+let carrito = []
+
+
 productos.forEach(item =>{
     let div = document.createElement("div");
     div.className = "etiqueta";
@@ -40,8 +46,13 @@ productos.forEach(item =>{
         let carritoStor = JSON.stringify(carrito);
         localStorage.setItem("carro", carritoStor);
         
+        Swal.fire({
+            title: "Agregaste un producto!",
+            icon: "success"
+        });
         
     });
     
     
+    carrito = JSON.parse (localStorage.getItem("carro")) || [];
 })

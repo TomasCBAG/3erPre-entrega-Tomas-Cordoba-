@@ -37,8 +37,8 @@ body{
     
 }
 .fondo-de-pantallas{
-    width:100%;
-    height: 100%;
+    width:100vw;
+    height: 100vh;
     display: flex;
     background-image: linear-gradient(rgba(255, 255, 255, 0.80), rgba(0, 0, 0, 0.80));
 }
@@ -98,4 +98,8 @@ a{
     color: #ffffff;
     background-color: black;
     border: 1px solid white;
+}
+footer h2{
+    background-color: black;
+    color: white;
 }
