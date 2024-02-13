@@ -1,0 +1,10 @@
+[
+    {"id": 1 , "nombre":"REMERA RVCA STATIC OVER" , "precio": 2400 },
+    {"id": 2 , "nombre":"REMERA ELEMENT KEEP " , "precio": 2280 },
+    {"id": 3 , "nombre":"REMERA ALTHON GROWING" , "precio": 1499 },
+    {"id": 4 , "nombre":"REMERA THRASHER FLAMA" , "precio": 2160 },
+    {"id": 5 , "nombre":"REMERA ZIMITH SUPERIOR" , "precio": 1350 },
+    {"id": 6 , "nombre":"REMERA CAPTAIN FIN PIER" , "precio": 1710 },
+    {"id": 7 , "nombre":"REMERA ZIMITH TOKIOTA" , "precio": 1440 },
+    {"id": 8 , "nombre":"REMERA FAMILY MACHI" , "precio": 2160 } 
+]
