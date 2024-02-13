@@ -1,5 +1,4 @@
 
-
 const imagenes = ["./assets/img/imagen1.png", 
 "./assets/img/imagen2.png",
 "./assets/img/imagen3.png",
@@ -13,7 +12,6 @@ let carrito = []
 fetch("./base.json")
     .then((response) => response.json())
     .then((data) =>{
-    
      data.forEach(item =>{
          let div = document.createElement("div");
          div.className = "etiqueta";
